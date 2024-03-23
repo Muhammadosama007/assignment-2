@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+</head>
+
+<body>
+    <header>
+        <h1>Travel Reservation Form</h1>
+    </header>
+
+    <main>
+        <form action="">
+            <div>
+                <h4>* denotes mandotory</h4>
+            </div>
+            <div>
+                <label for="name">Full Name*:</label><br>
+                <input type="text" placeholder="FirstName LastName" required="required" id="name">
+
+                <label for="E_Address">Email Address*:</label><br>
+                <input type="email" placeholder="Email_Address" required="required" id="E_Address">
+            </div>
+            <section>
+                <label for="tour_package">Select Tour Package*: </label><br>
+                <select name="" required="required" id="tour_package">
+                    <option value="">Goa</option>
+                    <option value="">Islamabad</option>
+                    <option value="">Lahore</option>
+                    <option value="">Quetta</option>
+                </select>
+            </section>
+
+            <div>
+                <label for="date">Arrival date*:</label><br>
+                <input type="date" required="required" name="" id="date">
+
+                <label for="No.person">Number of persons*:</label><br>
+                <input type="number" name="" id="No.person" placeholder="UNKNOWN_TYPE">
+            </div>
+
+            <section>
+                <label for="want">What would you want to avail?*</label><br>
+                <label for="b">Boarding</label><input type="checkbox" name="" id="b"><br>
+                <label for="f">fooding</label><input type="checkbox" name="" id="f"><br>
+                <label for="s">Sight seeing</label><input type="checkbox" name="" id="s"><br>
+            </section>
+
+            <div>
+                <label for="dc">Discount Coupon Code:</label><br>
+                <input type="number" placeholder="UNKNOWN_TYPE" name="" id="dc">
+            </div>
+
+            <div>
+                <label for="t&c">Terms and Conditions*</label><br>
+                <input type="radio" n ame="t" id="t"><label for="t">I agree</label>
+                <input type="radio" name="t" id="c"><label for="c">I disagree</label>
+            </div>
+
+            <div>
+                <input type="submit" value="Complete reservation" name="" id="">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <!-- link to the About us page -->
+        <nav>
+            <a href="aboutus.html">click to go to ABOUT US page</a>
+        </nav>
+    </footer>
+</body>
+
+</html>
